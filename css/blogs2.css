@@ -1,0 +1,91 @@
+*{
+    outline: 1px solid black;
+}
+body{
+    font-family: Arial;
+}
+.blogcont {
+    display: flex;
+    flex-direction: row;
+}
+.tuo1 {
+    background-color: #E4ECD4;
+    border-top-right-radius: 30px;
+    /* padding-left: 100px;
+    width: 80%; */
+}
+.conte1{
+    padding-right: 50px;
+}
+.datesulod{
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+}
+.titleniblog img{
+    max-width: 100%;
+    height: auto;
+}
+.titlesulod{
+    font-size: 20px;
+    font-weight: bold;
+}
+.bloginside{
+    line-height: 1.5rem;
+}
+.share1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+.share1 p{
+    font-weight: bold;
+}
+.ifbe{
+    height: 50px;
+    width: 50px;
+}
+.ix{
+    margin-top: 13px;
+    height: 25px;
+    width: 25px;
+}
+.wala1 {
+    margin-left: 20px;
+    margin-right: 50px;
+}
+.recent1{
+    font-size: 22px;
+    font-weight: bold;
+}
+.date2{
+    color: #565555;
+}
+.titleni2{
+    font-weight: bold;
+}
+.new1{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    padding-top:20px;
+}
+.post1{
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.gray1{
+    background-color: #E4ECD4;
+    height: 50vh;
+    margin-top: 30px;
+}
+
+@media screen and (min-width: 720px) {
+    .tuo1 {
+        background-color: #E4ECD4;
+        border-top-right-radius: 30px;
+        padding-left: 100px;
+        width: 1px;
+    }
+}

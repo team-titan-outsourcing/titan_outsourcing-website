@@ -1,0 +1,367 @@
+@font-face {
+    font-family: myFirstFont;
+    src:url("../font/Inter-VariableFont_slnt,wght.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button:hover{
+    cursor: pointer;
+}
+.h-body{
+    font-family: "myFirstFont";
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+@keyframes slidein {
+    from {
+      width: 0;
+    }
+  
+    to {
+      width: 100%;
+    }
+  }
+
+.about{
+    font-size: 38px;
+    justify-content: center;
+    text-align: center;
+    color: #405230;
+    margin-top: 2   00px;
+    margin-bottom: 20px;
+}
+.pamagat2{
+    color: #405230;
+    font-weight: bold;
+}
+.what{
+    margin-top: 50px;
+}
+.pamagat3{
+    text-align: center;
+    color: #405230;
+    font-size: 25px;
+}
+.pamagat4{
+    text-align: center;
+    color: #405230;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.ano1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: -50px;
+}
+.ano1 p{
+    color: #405230;
+    font-size: 28px;
+    margin-top: -15px;
+}
+.teamContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.teamTitan {
+    width: 400px;
+    height: 6vh;
+    background-color: #E4ECD4;
+}
+.cor{
+    margin-top: 250px;
+}
+.pamagat5 p{
+    text-align: center;
+    font-size: 25px;
+    color: #405230;
+    text-transform: uppercase;
+}
+.pamagat5 hr {
+    margin: 0 auto;
+    width: 30%;
+}
+.vid{
+    text-align: center;
+    margin-top: 50px;
+}
+@media screen and (min-width: 320px){
+    .overlay-text{
+        display: block;
+    }
+    .wala1 img{
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .tuo1 p{
+        margin-top: 15px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        line-height: 1.4rem;
+    }
+    .sapic{
+        text-align: center;
+    }
+    .name1{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .betcolor{
+        color: #405230;
+        font-weight: bold;
+    }
+    .abso{
+        margin-top: -30px;
+    }
+    .desc1{
+        margin-bottom: 30px;
+        line-height: 1.5rem;
+    }
+    .desc1 p{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .picsure{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .pamagat5 hr{
+        width: 80%;
+        color: #E4ECD4;
+    }
+    .vid img{
+        width: 100%;
+        height: auto;
+    }
+    .bgcolor4 {
+        background-color: #f0f0f0;
+        padding: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 100px;
+        text-align: center;
+    }
+    .pama,
+    .pama1 {
+        padding: 0;
+            }
+    .lama,
+    .lama1 {
+        padding: 0;
+    }
+    
+    .pama p,
+    .pama1 p {
+        font-size: 20px;
+        color: #405230;
+        font-weight: bold;
+    }
+    
+    .pama img,
+    .pama1 img {
+        margin-right: 10px;
+        height: 100%;
+        width: auto;
+    }
+    
+}
+
+@media screen and (min-width: 1020px) {
+
+    .unod1{
+        display: flex;
+        flex-direction: row;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .overlay-text{
+        border: solid 1px #405230;
+        border-radius: 100px;
+        transform: translate(50%, -50%);
+        margin-top: -200px;
+        margin-left: -150px;
+    }
+    .wala1 img{
+        display: block;
+        margin: 0 auto;
+        width: max-content;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+    .pamagat1{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .tuo1 p{
+        margin-top: 0;
+        margin-bottom: 20px;
+        margin-right: 0px;
+        line-height: 1.4rem;
+    }
+    .sapic{
+        display: flex;
+        flex-direction: row;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+    .wala2 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-right: 100px;
+    }
+    .tuo2 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .bgcolor1{
+        background-color: #E4ECD4;
+        height: 65vh;
+        width: 100%;
+    }
+    .name1{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .betcolor{
+        color: #405230;
+        font-weight: bold;
+    }
+    .abso{
+        position: absolute;
+        margin-top: -30px;
+    }
+    .desc1{
+        margin-bottom: 0px;
+        line-height: 1.5rem;
+    }
+    .desc1 p{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .picsure{
+        /* position: absolute; */
+        margin-top: -70px;
+    }
+    .colpic{
+        text-align: center;
+    }
+    .bgcontainer {
+        margin-top: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .bgcolor3 {
+        width: 900px;
+        height: 45vh;
+        background-color: #E4ECD4;
+        
+    }
+    /* .picrowbabaw{
+        position: absolute;
+        margin-top: -70px;
+        display: flex;
+        flex-direction: row;
+    }
+    .picrowbabaw img{  
+    } */
+    .pamagat5 hr{
+        width: 30%;
+        color: #E4ECD4;
+    }
+    .vid img{
+        width: max-content;
+        height: max-content;
+    }
+    .bgcolor4 {
+        background-color: #f0f0f0;
+        padding: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    
+    .unodya,
+    .unodya1 {
+        display: flex;
+        justify-content: space-between;
+    }
+    .dalomya{
+        margin-top: 60px;
+    }
+    
+    .sulodya,
+    .sulodya1 {
+        position: relative;
+        padding-right: 10px;
+        flex-basis: 33%;
+    }
+    
+    .sulodya:not(:last-child)::after,
+    .sulodya1:not(:last-child)::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 1px;
+        background-color: black;
+    }
+    
+    .sulodya::before {
+        content: '';
+        position: absolute;
+        bottom: -30px;
+        left: 30px;
+        right: 30px;
+        height: 1px;
+        background-color: black;
+    }
+    
+    .pama,
+    .pama1 {
+        margin-left: 30px;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+            }
+    .lama,
+    .lama1 {
+        margin-left: 30px;
+        padding: 0;
+    }
+    
+    .pama p,
+    .pama1 p {
+        font-size: 20px;
+        color: #405230;
+        font-weight: bold;
+    }
+    
+    .pama img,
+    .pama1 img {
+        margin-right: 10px;
+        height: 100%;
+        width: auto;
+    }
+}

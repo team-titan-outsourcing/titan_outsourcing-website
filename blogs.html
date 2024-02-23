@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/blogs.css">
+    <link rel="stylesheet" href="css/header.css">
+    <title>Blogs</title>
+</head>
+<body>
+
+    <header class="h-header">
+        <div class="h-placeheader">
+            <p>No Placement fee upfront for this month when you get a virtual assistant using our Managed service!</p>
+        </div>
+        <div class="h-header-container">
+            <nav class="h-header h-nav">
+                <ul class="h-ul">
+                    <a href="index.html"><li class="h-li" onclick="selected_content('home')" id="home">Home</li></a>
+                    <a href="about.html"><li class="h-li" onclick="selected_content('about')" id="about">About us</li></a>
+                    <li class="h-li" onclick="selected_content('our_va')" id="our_va">Our VA’s and Clients </li>
+                    <a href="hiringprocess.html"><li class="h-li" onclick="selected_content('va')" id="va">VA Hiring Process</li></a>
+                    <a href="pricing.html"><li class="h-li" onclick="selected_content('pp')" id="pp">Pricing Plan</li></a>
+                    <a href="blogs.html"><li class="h-li h-selected" onclick="selected_content('blogs')" id="blogs">Blogs</li></a>
+                    <li class="h-li" onclick="selected_content('book')" id="book">Book a Call</li>
+                    <a href="va_niches.html"><li class="h-li" onclick="selected_content('task')" id="task">VA Tasks</li></a>
+                </ul>
+            </nav>
+            <div class="h-logo">
+                <img src="images/Titan_Logo_png.png" alt="titan logo" class="h-img">
+            </div>
+        </div>
+    </header>
+
+    <div class="blog-section">
+        <h1>Blogs</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="posts.html">All Posts</a></li>
+                <li><a href="outsourcing.html">Outsourcing</a></li>
+                <li><a href="VA.html">Virtual Assistant</a></li>
+                <li><a href="VA-outsourcing.html">Virtual Assistant Outsourcing</a></li>
+                    <form action="search.php" method="get">
+                        <input type="text" name="query" id="search-input" placeholder="Search..">
+                        <button type="submit" id="search-button"><i class="fas fa-search"></i></button>
+                  </form>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="blogs">
+        <div class="blog-content">
+            <img src="images/Ellipse 6.png" alt="Image 1">
+            <div class="date">
+                <p id="datetime"></p>
+                <p>Virtual assistant outsourcing</p>
+            </div>
+            <div class="blog-txt">
+                <h5>How VA can help width customer retention and loyalty program</h5>
+            <h6>How VA can help width customer retention and loyalty program</h6>
+            </div>
+        </div>
+        <img src="images/blog 1.png" alt="Image 1">
+        <img src="images/blog 1.png" alt="Image 1">
+        <img src="images/blog 1.png" alt="Image 1">
+        <img src="images/blog 1.png" alt="Image 1">
+        <img src="images/blog 1.png" alt="Image 1">
+        <img src="images/blog 1.png" alt="Image 1">
+        <img src="images/blog 1.png" alt="Image 1">
+    </div>
+
+    <script>
+        var currentDateTime = new Date();
+    
+        var options = { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Manila'};
+        var formattedDate = currentDateTime.toLocaleDateString('en-US', options);
+        document.getElementById("datetime").innerHTML = formattedDate + " | ";
+    </script>   
+</body>
+</html>

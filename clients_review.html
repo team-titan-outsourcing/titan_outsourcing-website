@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/clients_review.css">
+    <link rel="stylesheet" href="css/header.css">
+    <title>Clients Review</title>
+</head>
+<body>
+
+    <header class="h-header">
+        <div class="h-placeheader">
+            <p>No Placement fee upfront for this month when you get a virtual assistant using our Managed service!</p>
+        </div>
+        <div class="h-header-container">
+            <nav class="h-header h-nav">
+                <ul class="h-ul">
+                    <li class="h-li h-selected" onclick="selected_content('home')" id="home">Home</li>
+                    <li class="h-li" onclick="selected_content('about')" id="about">About us</li>
+                    <li class="h-li" onclick="selected_content('our_va')" id="our_va">Our VA’s and Clients </li>
+                    <li class="h-li" onclick="selected_content('va')" id="va">VA Hiring Process</li>
+                    <li class="h-li" onclick="selected_content('pp')" id="pp">Pricing Plan</li>
+                    <li class="h-li" onclick="selected_content('blogs')" id="blogs">Blogs</li>
+                    <li class="h-li" onclick="selected_content('book')" id="book">Book a Call</li>
+                    <li class="h-li" onclick="selected_content('task')" id="task">VA Tasks</li>
+                </ul>
+            </nav>
+            <div class="h-logo">
+                <img src="images/Titan_Logo_png.png" alt="titan logo" class="h-img">
+            </div>
+        </div>
+    </header>
+
+    <div class="slider-container" id="sliderContainer">
+        <button class="slider-arrow prev-arrow" onclick="changeSlide(-1)">&#10094;</button>
+        <div class="slider-slide active-slide">
+            <img src="images/Ellipse 6.png" alt="Image 1">
+            <div class="slider-text">
+                <p>1 HIGHLY recommend TITAN Outsourcing! Even if you don't think you have a need for a VA, reach out!! Corey and Bethany opened my eyes to the ways VAs could change the game for my business and time management! Within 4 days (YES only FOUR DAYS!!!!), they were able to find and connect me with my "unicorn" candidate! We are already discussing hiring a team of VAs for her to train and manage. Communication has been wonderful. I was nervous because this is all new to me, but TITAN Outsourcing has taken so much stress off my plate by explaining everything about the process! Reach out, you won't regret it!</p>
+            </div>
+        </div>
+        <button class="slider-arrow next-arrow" onclick="changeSlide(1)">&#10095;</button>
+        <button class="open-modal" style="display: visible;">Leave a review</button>
+    </div>
+    
+    <div class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Leave a Review</h3>
+                <hr>
+            </div>
+            <div class="modal-body">
+                <p>Upload file and leave a review</p>
+                <form action="upload_review.php" method="post" enctype="multipart/form-data">
+
+                    <input type="file" name="fileToUpload" id="file-input">
+                    <br><br>
+                    <label for="first-name">First Name:</label><br>
+                    <input type="text" name="first_name" id="first-name" placeholder="Enter your first name">
+                    <br>
+                    <br>
+                    <label for="last-name">Last Name:</label><br>
+                    <input type="text" name="last_name" id="last-name" placeholder="Enter your last name">
+                    <br>
+                    <br>
+                    <label for="review">Your Review:</label><br>
+                    <textarea name="review" id="review" placeholder="Write your review here"></textarea>
+                    <br>    
+                    <button type="submit" id="upload-button"><i class="fas fa-upload"></i> Upload and Submit Review</button>
+                </form>
+                <br>   
+            </div>
+            <div class="modal-footer">
+                <button class="close">Close</button>
+            </div>
+        </div>
+    </div>    
+    
+
+    <div class="virtual-assistant-reviews">
+        <h3>Virtual Assistant Review</h3>
+        <div class="reviews-container">
+            <div class="review-item">
+                <img src="images/Ellipse 6.png" alt="Image 1">
+                <p>I love Titan Outsourcing! Corey, Bethany, and the whole crew are awesome. My Bosses are hardworking and good people. I am grateful to be working with them. I am grateful to both Titan Outsourcing and my Client for the opportunity.</p>
+            </div>
+            
+            <div class="review-item">
+                <img src="images/Ellipse 6.png" alt="Image 1">
+                <p>I love Titan Outsourcing! Corey, Bethany, and the whole crew are awesome. My Bosses are hardworking and good people. I am grateful to be working with them. I am grateful to both Titan Outsourcing and my Client for the opportunity.</p>
+            </div>
+
+            <div class="review-item">
+                <img src="images/Ellipse 6.png" alt="Image 1">
+                <p>I love Titan Outsourcing! Corey, Bethany, and the whole crew are awesome. My Bosses are hardworking and good people. I am grateful to be working with them. I am grateful to both Titan Outsourcing and my Client for the opportunity.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="client-testimonials">
+        <h3>Client Testimonials</h3>
+        <h2>What our clients say about us</h2>
+        <p>If you’re looking to outsource daunting tasks that you don’t have the time or skills to do, then you’ve come to the right place.</p>
+    </div>
+
+    <div class="Testimonials">
+        <div class="testimonial-section">
+            <div class="testimonial-content">
+                <h3>Thank You Lori Jewett it was a pleasure working with you.</h3>
+                <p>At our company, we strive to provide personalized customer service and go above and beyond to meet our customers' needs. Lori was no exception. She was constantly overwhelmed and struggling to manage her workload. So, we offered Lori a virtual assistant who could take some of the tasks off her plate. After extensive research and interviewing for the perfect fit, we were able to find a virtual assistant that could help Lori efficiently manage her workload and free up some of her time.</p>
+            </div>
+            <div class="testimonial-image">
+                <img src="images/Annotation 2024-01-29 193548 1.png" alt="Image 1">
+            </div>
+        </div>
+
+        <div class="testimonial-section2">
+            <div class="testimonial-content2">
+                <h3>Thank You Lori Jewett it was a pleasure working with you.</h3>
+                <p>At our company, we strive to provide personalized customer service and go above and beyond to meet our customers' needs. Lori was no exception. She was constantly overwhelmed and struggling to manage her workload. So, we offered Lori a virtual assistant who could take some of the tasks off her plate. After extensive research and interviewing for the perfect fit, we were able to find a virtual assistant that could help Lori efficiently manage her workload and free up some of her time.</p>
+            </div>
+            <div class="testimonial-image">
+                <img src="images/Annotation 2024-01-29 193548 1.png" alt="Image 1">
+            </div>
+        </div>
+    </div>
+
+    <div class="virtual-assistants">
+        <div class="virtual-assistants-content">
+            <h2>MEET THE TITAN <u>VIRTUAL ASSISTANTS</u></h2>
+            <p>Thank You Lori Jewett it was a pleasure working with you.</h3>
+                <p>At our company, we strive to provide personalized customer service and go above and beyond to meet our customers' needs. Lori was no exception. She was constantly overwhelmed and struggling to manage her workload. So, we offered Lori a virtual assistant who could take some of the tasks off her plate. After extensive research and interviewing for the perfect fit, we were able to find a virtual assistant that could help Lori efficiently manage her workload and free up some of her time.Thank You Lori Jewett it was a pleasure working with you.</h3>
+                    <p>At our company, we strive to provide personalized customer service and go above and beyond to meet our customers' needs. Lori was no exception. She was constantly overwhelmed and struggling to manage her workload. So, we offered Lori a virtual assistant who could take some of the tasks off her plate. After extensive research and interviewing for the perfect fit, we were able to find a virtual assistant that could help Lori efficiently manage her workload and free up some of her time.</p>
+        </div>
+        <div class="virtual-assistants-image">
+            <div class="va-image">
+                <img src="images/sarah.png" alt="Image 1">
+            </div>
+        </div>
+    </div>
+
+    <div class="titans-gallery">
+        <h3>Meet the TITANS: A Gallery of Our Clients and their VAs</h3>
+        <img src="images/Annotation 2024-01-29 202440 1 (1).png" alt="Image 1">
+        <img src="images/Annotation 2024-01-29 202440 1 (1).png" alt="Image 1">
+    </div>
+
+    <script>
+        const modal = document.querySelector('.modal');
+        const closeButton = document.querySelector('.close');
+        const openModalButton = document.querySelector('.open-modal');
+        const sliderContainer = document.getElementById('sliderContainer');
+        const slides = document.querySelectorAll('.slider-slide');
+        let currentSlide = 0;
+
+        openModalButton.addEventListener('click', function() {
+            modal.style.display = 'block';
+            openModalButton.style.display = 'none';
+        });
+
+        closeButton.addEventListener('click', function() {
+            modal.style.display = 'none';
+            openModalButton.style.display = 'block';
+        });
+
+        function changeSlide(direction) {
+            slides[currentSlide].classList.remove('active-slide');
+            currentSlide += direction;
+            
+            if (currentSlide < 0) {
+                currentSlide = slides.length - 1;
+            } else if (currentSlide >= slides.length) {
+                currentSlide = 0;
+            }
+
+            slides[currentSlide].classList.add('active-slide');
+        }
+    </script>
+
+</body>
+</html>
