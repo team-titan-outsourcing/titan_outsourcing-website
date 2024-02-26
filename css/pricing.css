@@ -68,29 +68,36 @@ h3{
     width: 100%;
     border-radius: 10px;
     border: 1px  solid #47A72F;
-    font-size: 21px;
+    font-size: 15.6px;
     height: 100%;
     background: #47A72F;
     color: white;
-   
+    line-height: 1.8;
+    padding-top: 5%;
+    padding-left: 5%;
 }
 .seconds{
     width: 100%;
     border-radius: 10px;
     border: 1px  solid #C8D8B8;
-    font-size: 20.7px;
+    font-size: 16.9px;
     height: 100%;
     background: #C8D8B8;
     color: #565555;
-   
+    line-height: 1.8;
+    padding-top: 5%;
+    padding-left: 5%;
 }
 .secondz{
     width: 100%;
     border-radius: 10px;
     border: 1px  solid #E4ECD4;
-    font-size: 20px;
+    font-size: 15.3px;
     height: 100%;
     background: #E4ECD4;
+    line-height: 1.8;
+    padding-top: 5%;
+    padding-left: 5%;
    
 }
 .amount{
@@ -101,6 +108,10 @@ h3{
     padding-left: 5px;
     
 }
+.bullet{
+  list-style-type: none;
+}
+
 
 .btn{
     text-decoration: none;
@@ -244,32 +255,39 @@ h3{
   .customer{
     margin-left: 3%;
     font-size: 18px;
+    margin-top: 2%;
   }
   .titan{
     font-size: 30px;
     margin-left: 3%;
+    margin-top: 2%;
   }
   .number{
     list-style-type: none;
+    margin-top: 2%;
+    margin-left: 3%;
   }
   .time{
     font-size: 30px;
     margin-left: 3%;
-    
+    margin-top: 5%;
   }
   .office-hrs{
     display: flex;
-    margin-top: -5%;
+    margin-top: 5%;
+    margin-left: 3%;
   }
   .day{
     list-style-type: none;
     font-size: 20px;
     line-height: 1.8;
+    
   }
   .hrs{
     list-style-type: none;
     font-size: 20px;
     line-height: 1.8;
+    text-indent: 50px;
   }
 
   @media screen and (min-width: 320px) {
