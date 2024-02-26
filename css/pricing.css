@@ -68,36 +68,36 @@ h3{
     width: 100%;
     border-radius: 10px;
     border: 1px  solid #47A72F;
-    font-size: 15.6px;
+    font-size: 16px;
     height: 100%;
     background: #47A72F;
     color: white;
     line-height: 1.8;
-    padding-top: 5%;
-    padding-left: 5%;
+    padding: 5%;
+    
 }
 .seconds{
     width: 100%;
     border-radius: 10px;
     border: 1px  solid #C8D8B8;
-    font-size: 16.9px;
+    font-size: 17.5px;
     height: 100%;
     background: #C8D8B8;
     color: #565555;
     line-height: 1.8;
-    padding-top: 5%;
-    padding-left: 5%;
+    padding: 5%;
+    
 }
 .secondz{
     width: 100%;
     border-radius: 10px;
     border: 1px  solid #E4ECD4;
-    font-size: 15.3px;
+    font-size: 16.3px;
     height: 100%;
     background: #E4ECD4;
     line-height: 1.8;
-    padding-top: 5%;
-    padding-left: 5%;
+    padding: 5%;
+    
    
 }
 .amount{
