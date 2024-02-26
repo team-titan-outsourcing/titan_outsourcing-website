@@ -152,10 +152,15 @@ a{
         margin-top: 100px;
         text-align: center;
     }
+    .sulodya, .sulodya1{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
     .pama,
     .pama1 {
         padding: 0;
-            }
+        margin-bottom: 10px;
+    }
     .lama,
     .lama1 {
         padding: 0;
@@ -167,6 +172,9 @@ a{
         color: #405230;
         font-weight: bold;
     }
+    .value1 br{
+        display: none;
+    }
     
     .pama img,
     .pama1 img {
@@ -177,7 +185,7 @@ a{
     
 }
 
-@media screen and (min-width: 1020px) {
+@media screen and (min-width: 1020px){
 
     .unod1{
         display: flex;
@@ -273,14 +281,14 @@ a{
         background-color: #E4ECD4;
         
     }
-    /* .picrowbabaw{
-        position: absolute;
+    .picrowbabaw{
+        /* position: absolute;
         margin-top: -70px;
         display: flex;
-        flex-direction: row;
+        flex-direction: row; */
     }
     .picrowbabaw img{  
-    } */
+    }
     .pamagat5 hr{
         width: 30%;
         color: #E4ECD4;
@@ -314,6 +322,8 @@ a{
         position: relative;
         padding-right: 10px;
         flex-basis: 33%;
+        margin-top: 0;
+        margin-bottom: 0;
     }
     
     .sulodya:not(:last-child)::after,
@@ -344,7 +354,11 @@ a{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-            }
+        margin-bottom: 0;
+    }
+    .tit2{
+        order: 1;
+    }
     .lama,
     .lama1 {
         margin-left: 30px;
@@ -356,6 +370,10 @@ a{
         font-size: 20px;
         color: #405230;
         font-weight: bold;
+    }
+
+    .value1 br{
+        display: inherit;
     }
     
     .pama img,
