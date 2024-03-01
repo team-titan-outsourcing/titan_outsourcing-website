@@ -68,7 +68,7 @@ h3{
     width: 100%;
     border-radius: 10px;
     border: 1px  solid #47A72F;
-    font-size: 16px;
+    font-size: 15.9px;
     height: 100%;
     background: #47A72F;
     color: white;
@@ -92,7 +92,7 @@ h3{
     width: 100%;
     border-radius: 10px;
     border: 1px  solid #E4ECD4;
-    font-size: 16.3px;
+    font-size: 15.9px;
     height: 100%;
     background: #E4ECD4;
     line-height: 1.8;
@@ -122,13 +122,24 @@ h3{
     background: transparent;
     width: 50%;
 }
+.btnb{
+  text-decoration: none;
+  border-radius: 10px;
+  margin-left: 25%;
+  padding: 10px;
+  margin-bottom: 2%;
+  background: transparent;
+  width: 50%;
+  color: white;
+    border: 1px  solid white;
+}
+.btnb:hover {
+  background-color: rgb(125, 170, 125);
+}
 .btn:hover {
     background-color: rgb(1, 116, 1);
   }
-.b{
-    color: white;
-    border: 1px  solid white;
-}
+
 .t{
     color: #565555;
     border: 1px  solid #565555;
@@ -203,6 +214,7 @@ h3{
   .contact{
     text-align: center;
     font-size: 30px;
+    margin-top: 5%;
   }
   .box3-1{
     
@@ -215,21 +227,21 @@ h3{
   .line{
     font-size: 20px;
     margin-left: 3%;
+    margin-bottom: 5%;
   }
   .office{
-   
-    margin-top: 15%;
+    
     font-size: 20px;
     margin-left: 3%;
   }
   .info{
-    margin-top: 5%;
+    margin-bottom: 5%;
     width: 90%;
     margin-left: 3%;
     padding: 3%;
   }
   .sends{
-    margin-top: 5%;
+    margin-top: 2%;
     text-decoration: none;
     width: 95%;
     margin-left: 3%;
@@ -241,15 +253,17 @@ h3{
     border-radius: 10px;
   }
   .notif{
-    margin-left: 3%;
-    font-size: 15px;
+    margin-left: 5%;
+    font-size: 13px;
+    padding-bottom: 2%;
+    margin-top: 2%;
   }
   .box3-2{
     background: #E4ECD4;
     width: 50%;
   }
   .zoom{
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 3%;
   }
   .customer{
@@ -258,7 +272,7 @@ h3{
     margin-top: 2%;
   }
   .titan{
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 3%;
     margin-top: 2%;
   }
@@ -268,13 +282,13 @@ h3{
     margin-left: 3%;
   }
   .time{
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 3%;
     margin-top: 5%;
   }
   .office-hrs{
     display: flex;
-    margin-top: 5%;
+    margin-top: 3%;
     margin-left: 3%;
   }
   .day{
@@ -290,7 +304,7 @@ h3{
     text-indent: 50px;
   }
 
-  @media screen and (min-width: 320px) {
+  @media (min-width: 320px) {
     .h-placeheader{
         background-color: #405230;;
         width: 100%;
@@ -350,8 +364,132 @@ h3{
     a{
         color: #FFFFFF;
     }
+   
+    .main {
+      margin-top: 18%; 
+  }
+
+  h3 {
+      font-size: 24px; 
+  }
+
+  .main1 {
+      flex-direction: column;
+      align-items: center; 
+  }
+
+  .one,
+  .two,
+  .three {
+      width: 80%; 
+      margin-left: 0;
+      margin-bottom: 3%; 
+  }
+
+  .second,
+  .seconds,
+  .secondz {
+      font-size: 14px; 
+      padding: 3%; 
+  }
+
+  .btn {
+      margin-left: 25%; 
+      margin-right: auto; 
+  }
+     
+
+
+  .box2 {
+      margin-top: 5%; 
+  }
+
+  .text1 {
+      font-size: 30px; 
+  }
+
+  .text2 {
+      font-size: 16px; 
+  }
+
+  .collapsible {
+      font-size: 20px; 
+  }
+
+  .gridicons--dropdown {
+      margin-left: 70%; 
+      margin-right: auto; 
+  }
+
+  .drop {
+      width: 90%; 
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .a,
+  .b,
+  .c,
+  .d {
+      margin-left: 80%; 
+      margin-right: auto; 
+  }
+  .content{
+    padding: 3%;
+  }
+
+  .box3 {
+      flex-direction: column; 
+      align-items: center; 
+  }
+
+  .box3-1,
+  .box3-2 {
+      width: 90%; 
+      margin: 3% auto; 
+      padding-top: 2%;
+  }
+
+  .contact {
+      font-size: 24px; 
+      margin-top: 10%;
+  }
+
+  .line,
+  .office,
+  .info,
+  .zoom,
+  .titan,
+  .time {
+      font-size: 20px; 
+  }
+  .customer,
+  .number {
+    font-size: 15px; 
+  }
+  .day{
+    line-height: 1.8;
+    font-size: 17px; 
+  }
+  .hrs{
+    text-indent: 30px;
+    font-size: 17px; 
+    
+  }
+
+
+  .sends {
+      font-size: 20px; 
+      margin-top: 5%;
+  }
+
+  .notif {
+      font-size: 13px; 
+  }
+  
+  
 }
-@media screen and (min-width: 1020px) {
+@media (min-width: 1020px) {
     .h-placeheader{
         background-color: #405230;;
         width: 100%;
@@ -411,6 +549,198 @@ h3{
     a{
         color: #FFFFFF;
     }
+    .main {
+      margin-top: 18%; 
+  }
+
+  h3 {
+      font-size: 35px; 
+  }
+
+  .main1 {
+      flex-direction: column;
+      align-items: center; 
+  }
+
+  .one,
+  .two,
+  .three {
+      width: 80%; 
+      margin-left: 0;
+      margin-bottom: 3%; 
+  }
+
+  .second,
+  .seconds,
+  .secondz {
+      font-size: 20px; 
+      padding: 3%; 
+  }
+
+  .btn {
+      margin-left: 25%; 
+      margin-right: auto; 
+      margin-top: 2%;
+  }
+  .btnb {
+    margin-left: 25%; 
+    margin-right: auto; 
+    margin-top: 2%;
+}
+.contact {
+  font-size: 30px; 
+  margin-top: 10%;
+}
+
+.line,
+.office,
+.info {
+  font-size: 20px; 
+}
+.zoom,
+.titan,
+.time {
+  font-size: 30px; 
+}
+.customer,
+.number {
+font-size: 15px; 
+}
+.day{
+line-height: 1.8;
+font-size: 25px; 
+}
+.hrs{
+text-indent: 30px;
+font-size: 25px; 
+
+}
+
+
+.sends {
+  font-size: 20px; 
+  margin-top: 5%;
+}
+
+.notif {
+  font-size: 15px; 
+}
+
+     
+    
+}
+@media (max-width: 600px) {
+  .main {
+      margin-top: 18%; 
+  }
+
+  h3 {
+      font-size: 24px; 
+  }
+
+  .main1 {
+      flex-direction: column;
+      align-items: center; 
+  }
+
+  .one,
+  .two,
+  .three {
+      width: 80%; 
+      margin-left: 0;
+      margin-bottom: 3%; 
+  }
+
+  .second,
+  .seconds,
+  .secondz {
+      font-size: 14px; 
+      padding: 3%; 
+  }
+
+  .btn {
+      margin-left: 25%; 
+      margin-right: auto; 
+  }
+     
+
+
+  .box2 {
+      margin-top: 5%; 
+  }
+
+  .text1 {
+      font-size: 30px; 
+  }
+
+  .text2 {
+      font-size: 16px; 
+  }
+
+  .collapsible {
+      font-size: 20px; 
+  }
+
+  .gridicons--dropdown {
+      margin-left: 70%; 
+      margin-right: auto; 
+  }
+
+  .drop {
+      width: 90%; 
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .a,
+  .b,
+  .c,
+  .d {
+      margin-left: 80%; 
+      margin-right: auto; 
+  }
+  .content{
+    padding: 3%;
+  }
+
+  .box3 {
+      flex-direction: column; 
+      align-items: center; 
+  }
+
+  .box3-1,
+  .box3-2 {
+      width: 90%; 
+      margin: 3% auto; 
+  }
+
+  .contact {
+      font-size: 24px; 
+      margin-top: 10%;
+  }
+
+  .line,
+  .office,
+  .info,
+  .zoom,
+  .titan,
+  .time {
+      font-size: 20px; 
+  }
+  .customer,
+  .number,
+  .office-hrs {
+    font-size: 15px; 
+  }
+
+  .sends {
+      font-size: 20px; 
+      margin-top: 5%;
+  }
+
+  .notif {
+      font-size: 13px; 
+  }
 }
 
   
